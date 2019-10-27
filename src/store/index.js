@@ -28,7 +28,7 @@ const modules = modulesFiles.keys().reduce((modules, modulePath) => {
   return modules
 }, {})
 
-const store = new Vuex.Store({
+export default new Vuex.Store({
   modules,
   getters,
   customer,
@@ -44,5 +44,3 @@ const store = new Vuex.Store({
   waiter_check,
   withdraw_check
 })
-
-export default store

@@ -9,6 +9,8 @@
       return {
 
       }
-    }
+    },
+    computed: {
+    },
   }
 </script>
